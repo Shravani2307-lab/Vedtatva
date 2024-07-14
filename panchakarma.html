@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PANCHAKARMA</title>
+    <style>
+        /* Reset default styles */
+        body {
+          font-family: 'Times New Roman', Times, serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f7f7f7;
+        }
+        
+        
+        /* Header styles */
+        header {
+          background-color: rgba(135, 207, 235, 0.592);
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        /* Navigation menu styles */
+        nav {
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+        }
+        
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+        }
+        
+        nav li {
+          margin: 0 20px;
+        }
+        
+        nav a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+          transition: color 0.3s;
+        }
+        
+        nav a:hover {
+          color: skyblue;
+        }
+        
+        /* Main content styles */
+        .container {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+        }
+        
+        h1 {
+          color: white;
+        }
+        
+        h2 {
+          color: skyblue;
+        }
+        
+        p {
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+        .google-map {
+    padding-bottom: 50%;
+    position: relative;
+  }
+  
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+    </style>
+</head>
+<style>
+  body{
+  background-image: url(bg.png);
+  background-size: cover;
+background-position: center;
+}
+.full{
+background-color: #ffffff;
+}
+.topnav {
+overflow: hidden;
+
+}
+.topnav a {
+float: right;
+color: #3a490a;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topnav a:hover {
+background-color: rgb(50, 31, 3);
+color:#ffebcd;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 250%;
+}
+nav {
+      background-color: #3333335b;
+      color: #fff;
+      padding: 10px;
+    }
+</style>
+
+<nav>
+  <div class="topnav">
+    <a href="panchakarma.html">PANCHAKARMA</a>
+    <a href="search bar.html">STUDY</a>
+    <a href="form.html">SIGN UP</a>
+    <a href="homepage.html">LOGIN</a>
+    <a href="mainhome.html">HOME</a>
+    <img src="logo.png" alt="logo" height="100px" width="100px" >
+  </div>
+</nav>
+<body>
+    <header>
+        <h1>PANCHAKARMA</h1>
+    </header>
+        
+    <nav>
+        <ul>
+            <li><a href="#problems">What is Panchakarma?</a></li>
+            <li><a href="#symptoms">Need of Panchakarma</a></li>
+            <li><a href="#treatment">Types of Panchakarma</a></li>
+            <li><a href="#precautions">Effects of Panchakarma</a></li>
+        </ul>
+    </nav>
+    <div class="center"  height="80">
+      <img class="mySlides" src="v2.jpg" style="width:50%">
+      <img class="mySlides" src="v3.avif" style="width:50%">
+      <img class="mySlides" src="v4.avif" style="width:50%">
+      <img class="mySlides" src="v13.jpg" style="width:50%">
+      <img class="mySlides" src="v14.avif" style="width:50%">
+      </div>
+    </body>
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000);
+      }
+      </script>
+    <div class="container" id="problems">
+        <h2>What is Panchakarma?</h2>
+        <p>Panchakarma is a traditional Ayurvedic detoxification and rejuvenation therapy that has been practiced for
+             thousands of years in India. It is a Sanskrit term that translates to "five actions" or "five treatments,
+             " where "pancha" means five, and "karma" means action. Panchakarma is a holistic approach to cleansing and 
+             balancing the body, mind, and spirit.
+            </p>
+            <p>The primary goal of Panchakarma is to remove accumulated toxins (ama) from the body and restore the body's 
+                natural balance (dosha equilibrium) by utilizing a combination of therapeutic treatments, dietary adjustments,
+                 and lifestyle changes. It is often used for preventive healthcare as well as the treatment of various chronic
+                  diseases and imbalances.</p>
+    </div>
+
+    <div class="container" id="symptoms">
+        <h2>Need of Panchakarma</h2>
+        <p>
+           1) Detoxification: Panchakarma is primarily used to detoxify the body. Over time, due to poor diet, lifestyle choices, environmental factors, and stress, toxins or "ama" can accumulate in the body. Panchakarma helps in eliminating these toxins, promoting better overall health.<br>
+
+2) Balancing Doshas: Ayurveda recognizes three primary doshas (Vata, Pitta, and Kapha) that govern an individual's physiological and psychological characteristics. Imbalances in these doshas can lead to various health issues. Panchakarma treatments are customized to balance these doshas and restore harmony to the body.<br>
+
+3) Disease Management: Panchakarma is often used as a complementary therapy for managing chronic diseases and conditions such as arthritis, digestive disorders, skin problems, autoimmune diseases, and more. By reducing dosha imbalances and removing toxins, it can support the healing process.<br>
+
+4) Stress Reduction: Panchakarma therapies are known for their calming and relaxing effects. They can help reduce stress, anxiety, and promote mental clarity. Nasya, for example, is used to clear the mind and improve sensory perception.<br>
+
+5) Weight Management: Panchakarma can be a part of a holistic weight management plan. By improving digestion, metabolism, and reducing toxins, it may help with weight loss and maintenance.<br>
+
+6) Improved Digestion: Many Panchakarma therapies, such as Vamana and Virechana, are specifically designed to improve digestive functions. They can help with issues like indigestion, bloating, and irregular bowel movements.<br>
+
+7) Enhanced Immunity: Panchakarma aims to strengthen the body's natural defense mechanisms. A clean and balanced system is better equipped to fight off infections and illnesses.<br>
+
+8) Rejuvenation and Longevity: Some individuals seek Panchakarma for its rejuvenating effects. It is believed to slow down the aging process and promote longevity by maintaining optimal health and vitality.<br>
+
+9) Preventive Care: Panchakarma can also be used as a preventive measure to maintain overall well-being and prevent diseases from occurring in the first place.<br>
+        </p>
+    </div>
+
+    <div class="container" id="treatment">
+        <h2>Types of Panchakarma</h2>
+        1) Vamana: Vamana is a therapeutic emesis procedure that involves controlled vomiting to eliminate excess Kapha dosha from the body. It is primarily used to treat conditions related to respiratory problems, allergies, and skin disorders.<br>
+
+2) Virechana: Virechana is a therapeutic purgation treatment that aims to eliminate excess Pitta dosha from the body. It is often recommended for individuals with digestive issues, liver disorders, and skin conditions.<br>
+
+3) Basti: Basti is an enema therapy that involves the introduction of herbal decoctions and oils into the rectum to balance Vata dosha. It is used to treat various disorders, including constipation, neurological conditions, and joint problems.<br>
+
+4) Nasya: Nasya involves the administration of herbal oils or powders through the nasal passages. It is primarily used to address disorders related to the head and neck, such as sinusitis, migraine, and respiratory conditions.<br>
+
+5) Rakta Mokshana: Rakta Mokshana is a blood purification therapy that is not commonly practiced as the other Panchakarma procedures. It involves the removal of impure blood from the body, often by leech therapy. It is used for specific conditions like skin diseases and blood disorders.<br>
+
+6) Shirodhara: Shirodhara is a relaxation therapy in which a continuous stream of warm herbal oil or other liquids is poured onto the forehead, focusing on the third eye area. It is beneficial for reducing stress, anxiety, and promoting mental clarity.<br>
+
+7) Abhyanga: Abhyanga is a full-body oil massage that uses specific herbal oils tailored to an individual's constitution and health condition. It helps improve circulation, relax muscles, and nourish the skin.<br>
+
+8) Swedana: Swedana is a steam therapy that encourages sweating to eliminate toxins and improve circulation. It can be done using various methods like steam chambers or herbal steam tents.<br>
+    </div>
+
+    <div class="container" id="precautions">
+        <h2>Effects of Panchakarma</h2>
+        <ul>
+<li>It eliminates toxins accumulated in the body.</li>
+<li>It recharges the body, mind, and soul.</li>
+<li>It balances the Tridosha -Vata, Pitta, and Kapha to maintain equilibrium in the body.</li>
+<li>It helps in reducing physical and mental stress.</li>
+<li>It improves digestion.</li>
+<li>It helps in providing glowing skin.</li>
+<li>It improves immunity and strength.</li>
+</ul>
+        
+    </div>
+    
+</body>
+<body>
+  <div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </body>
+  </div>
+</html>

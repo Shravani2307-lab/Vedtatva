@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign Up form </title> 
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <style>
+    body {
+  background-image: url(bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.topnav a {
+  float: right;
+  color: #8DB600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: rgb(50, 31, 3);
+  color:#ffebcd;
+}
+img{
+  float: left;
+}
+
+   </style>
+</head>
+
+<body>
+  
+  <div class="wrapper">
+    <h2>SIGN UP</h2>
+    <form action="#">
+      <div class="input-box" id="name">
+        <input type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="input-box" id="email">
+        <input type="email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-box" id="phno">
+         
+        <input type="text" name="phone" placeholder="Phone no." size="10" required /> 
+      </div>
+      <div class="input-box" id="pw1">
+        <input type="password" placeholder="Create password" required>
+      </div>
+      <div class="input-box" id="pw2">
+        <input type="password" placeholder="Confirm password" required>
+      </div>
+      <div class="policy">
+        <input type="checkbox">
+        <h3>I accept all terms & condition</h3>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" onClick="done()" value="SIGN UP">
+      </div>
+      <div class="text">
+        <h3>Already have an account?   
+        <a href="homepage.html">LOGIN</a></h3>
+        <script src="form.js">
+
+        </script>
+      </div>
+    </form>
+    <br>
+    <br>
+      <div class="container">
+        <button class="btn" onclick="window.location.href ='https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1';">
+        LOGIN WITH GMAIL</button> 
+     </div>
+  </div>
+</div>
+</body>
+</html>

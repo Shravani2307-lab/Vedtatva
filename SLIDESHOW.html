@@ -1,0 +1,47 @@
+<HTML>
+<div class="content section" style="max-width:1300px " height="100">
+    <img class="mySlides" src="v2.jpg" style="width:50%">
+    <img class="mySlides" src="v3.avif" style="width:50%">
+    <img class="mySlides" src="v4.avif" style="width:50%">
+    <img class="mySlides" src="v13.jpg" style="width:50%">
+    <img class="mySlides" src="v14.avif" style="width:50%">
+    </div>
+  </body>
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000);
+    }
+    </script>
+</HTML>
+
+<p>
+    <a href="need help.html">Help</a><br>
+    <a href="feedback.html">Feedback</a><br>
+    <a href="about us.html">About Us</a><br>
+    <a href="t&c.html">Terms & Conditions</a><br>
+    <a>Contact Us</a><br>
+    <a>VEDTATVA@gmail.com</a><br>
+    <a>9325992922</a>
+    </p>
+
+    <p>
+        <a>Bibliography</a><br>
+        <a>Social Media</a><br>
+        <a href="https://www.google.com/gmail/"><img src="gmail.png" style="width:85px;height:85px;"></a>
+        <a href="https://www.instagram.com/"><img src="instagram.png" style="width:85px;height:85px;"></a>
+        <a href="https://www.facebook.com/"><img src="facebook.png" style="width:85px;height:85px;"></a>
+        <a href="https://telegram.org/"><img src="telegram.png" style="width:85px;height:85px;"></a>
+        <a href="https://twitter.com/?lang=en"><img src="twitter.png" style="width:85px;height:85px;"></a>
+        <a href="https://www.youtube.com/"><img src="youtube.png" style="width:85px;height:85px;"></a>
+        </p>
